@@ -1,0 +1,3 @@
+<h1>Account Home Page</h1>
+<p>This is where you can make all the magic happen! From here you can change someone's life by helping to fund their business. How? We have given you a feed of people looking for loans with a short description of who they are and what they want. If you think they would make a good person to give money to, simply click the "Loan" button! It's that easy!</p>
+<?php echo $account_value;

@@ -1,0 +1,12 @@
+[07-Jul-2016 06:24:50 UTC] PHP Warning:  include(inc/pdo_connect.php): failed to open stream: No such file or directory in /home/dkimot/public_html/inc/account/account_creation1.php on line 3
+[07-Jul-2016 06:24:50 UTC] PHP Warning:  include(): Failed opening 'inc/pdo_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dkimot/public_html/inc/account/account_creation1.php on line 3
+[07-Jul-2016 06:24:50 UTC] PHP Warning:  include(sql_session_vars.php): failed to open stream: No such file or directory in /home/dkimot/public_html/inc/account/account_creation1.php on line 4
+[07-Jul-2016 06:24:50 UTC] PHP Warning:  include(): Failed opening 'sql_session_vars.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dkimot/public_html/inc/account/account_creation1.php on line 4
+[07-Jul-2016 06:24:50 UTC] PHP Fatal error:  Call to undefined function dataQuery() in /home/dkimot/public_html/inc/account/account_creation1.php on line 15
+[07-Jul-2016 06:29:54 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/dkimot/public_html/inc/account/account_creation1.php on line 3
+[07-Jul-2016 06:29:54 UTC] PHP Warning:  include(https://www.changeinvestmentscorp.com/inc/pdo_connect.php): failed to open stream: no suitable wrapper could be found in /home/dkimot/public_html/inc/account/account_creation1.php on line 3
+[07-Jul-2016 06:29:54 UTC] PHP Warning:  include(): Failed opening 'https://www.changeinvestmentscorp.com/inc/pdo_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dkimot/public_html/inc/account/account_creation1.php on line 3
+[07-Jul-2016 06:29:54 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/dkimot/public_html/inc/account/account_creation1.php on line 4
+[07-Jul-2016 06:29:54 UTC] PHP Warning:  include(https://www.changeinvestmentscorp.com/sql_session_vars.php): failed to open stream: no suitable wrapper could be found in /home/dkimot/public_html/inc/account/account_creation1.php on line 4
+[07-Jul-2016 06:29:54 UTC] PHP Warning:  include(): Failed opening 'https://www.changeinvestmentscorp.com/sql_session_vars.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dkimot/public_html/inc/account/account_creation1.php on line 4
+[07-Jul-2016 06:29:54 UTC] PHP Fatal error:  Call to undefined function dataQuery() in /home/dkimot/public_html/inc/account/account_creation1.php on line 15
