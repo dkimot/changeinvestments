@@ -1,0 +1,47 @@
+[02-Jul-2016 00:12:15 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/dkimot/public_html/account_page.php:3) in /home/dkimot/public_html/account_page.php on line 4
+[02-Jul-2016 01:31:57 UTC] PHP Parse error:  syntax error, unexpected T_INCLUDE in /home/dkimot/public_html/create_account.php on line 4
+[02-Jul-2016 21:26:59 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/dkimot/public_html/create_account.php on line 18
+[03-Jul-2016 07:48:55 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/dkimot/public_html/create_account.php on line 18
+[03-Jul-2016 20:15:02 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/dkimot/public_html/create_account.php on line 18
+[03-Jul-2016 20:21:51 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/dkimot/public_html/create_account.php on line 5
+[03-Jul-2016 23:17:34 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dkimot/public_html/account_creation.php on line 43
+[03-Jul-2016 23:18:13 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/dkimot/public_html/account_creation.php on line 90
+[03-Jul-2016 23:20:37 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/dkimot/public_html/account_creation.php on line 91
+[03-Jul-2016 23:21:26 UTC] PHP Parse error:  syntax error, unexpected T_CATCH in /home/dkimot/public_html/inc/pdo_connect.php on line 38
+[03-Jul-2016 23:22:25 UTC] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'dkimot'@'localhost' (using password: NO) in /home/dkimot/public_html/account_creation.php on line 8
+[03-Jul-2016 23:22:25 UTC] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/dkimot/public_html/account_creation.php on line 8
+[03-Jul-2016 23:22:25 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/dkimot/public_html/account_creation.php on line 9
+[03-Jul-2016 23:26:19 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/dkimot/public_html/account_creation.php on line 9
+[04-Jul-2016 00:39:06 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/dkimot/public_html/account_creation.php on line 46
+[04-Jul-2016 00:40:21 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/dkimot/public_html/account_creation.php on line 46
+[04-Jul-2016 00:42:30 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/dkimot/public_html/account_creation.php on line 46
+[04-Jul-2016 02:22:33 UTC] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/dkimot/public_html/account_creation.php on line 78
+[04-Jul-2016 16:19:56 UTC] PHP Parse error:  syntax error, unexpected '$params' (T_VARIABLE) in /home/dkimot/public_html/account_creation.php on line 38
+[04-Jul-2016 16:21:05 UTC] PHP Parse error:  syntax error, unexpected '$params' (T_VARIABLE) in /home/dkimot/public_html/account_creation.php on line 39
+[04-Jul-2016 16:33:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dkimot/public_html/account_creation.php:40) in /home/dkimot/public_html/account_creation.php on line 75
+[04-Jul-2016 19:19:15 UTC] PHP Warning:  include(pdo_connect.php): failed to open stream: No such file or directory in /home/dkimot/public_html/confirmation.php on line 3
+[04-Jul-2016 19:19:15 UTC] PHP Warning:  include(): Failed opening 'pdo_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dkimot/public_html/confirmation.php on line 3
+[04-Jul-2016 19:19:15 UTC] PHP Fatal error:  Call to undefined function dataQuery() in /home/dkimot/public_html/confirmation.php on line 11
+[04-Jul-2016 19:23:23 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/dkimot/public_html/inc/pdo_connect.php on line 31
+[04-Jul-2016 19:25:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dkimot/public_html/confirmation.php on line 46
+[04-Jul-2016 19:26:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dkimot/public_html/confirmation.php on line 15
+[04-Jul-2016 19:28:11 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dkimot/public_html/confirmation.php on line 38
+[04-Jul-2016 19:53:51 UTC] PHP Parse error:  syntax error, unexpected '$results2' (T_VARIABLE), expecting ',' or ';' in /home/dkimot/public_html/confirmation.php on line 26
+[04-Jul-2016 21:02:35 UTC] PHP Fatal error:  Call to undefined function dataQuery() in /home/dkimot/public_html/sql_session_vars.php on line 5
+[04-Jul-2016 21:03:05 UTC] PHP Warning:  include(inc/pdo_connect): failed to open stream: No such file or directory in /home/dkimot/public_html/sql_session_vars.php on line 2
+[04-Jul-2016 21:03:05 UTC] PHP Warning:  include(): Failed opening 'inc/pdo_connect' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dkimot/public_html/sql_session_vars.php on line 2
+[04-Jul-2016 21:03:26 UTC] PHP Fatal error:  Cannot redeclare dataQuery() (previously declared in /home/dkimot/public_html/inc/pdo_connect.php:15) in /home/dkimot/public_html/inc/pdo_connect.php on line 42
+[04-Jul-2016 21:04:12 UTC] PHP Fatal error:  Call to undefined function dataQuery() in /home/dkimot/public_html/sql_session_vars.php on line 6
+[04-Jul-2016 21:07:02 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dkimot/public_html/pin1.php on line 7
+[04-Jul-2016 21:09:30 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dkimot/public_html/pin1.php on line 8
+[04-Jul-2016 21:10:15 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dkimot/public_html/pin1.php on line 8
+[04-Jul-2016 21:13:53 UTC] PHP Warning:  include(inc/footer): failed to open stream: No such file or directory in /home/dkimot/public_html/account_page.php on line 7
+[04-Jul-2016 21:13:53 UTC] PHP Warning:  include(): Failed opening 'inc/footer' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dkimot/public_html/account_page.php on line 7
+[05-Jul-2016 21:09:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/dkimot/public_html/inc/account/bank.php on line 28
+[07-Jul-2016 08:08:24 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/dkimot/public_html/account_page.php on line 19
+[07-Jul-2016 09:19:54 UTC] PHP Fatal error:  Call to undefined function dataQuery() in /home/dkimot/public_html/account_page.php on line 11
+[07-Jul-2016 09:20:48 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/dkimot/public_html/inc/pdo_connect.php on line 31
+[07-Jul-2016 09:20:48 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/dkimot/public_html/inc/pdo_connect.php on line 31
+[07-Jul-2016 09:20:48 UTC] PHP Fatal error:  Cannot redeclare dataQuery() (previously declared in /home/dkimot/public_html/inc/pdo_connect.php:15) in /home/dkimot/public_html/inc/pdo_connect.php on line 42
+[07-Jul-2016 09:21:30 UTC] PHP Fatal error:  Cannot redeclare dataQuery() (previously declared in /home/dkimot/public_html/inc/pdo_connect.php:15) in /home/dkimot/public_html/inc/pdo_connect.php on line 42
+[07-Jul-2016 09:22:18 UTC] PHP Fatal error:  Cannot redeclare dataQuery() (previously declared in /home/dkimot/public_html/inc/pdo_connect.php:15) in /home/dkimot/public_html/inc/pdo_connect.php on line 42
